@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/sobremim/style.css">
+  <title>Contato</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li>
+          <a href="/sobremim/index.html">Sobre mim</a> 
+        </li><li>
+          <a href="/sobremim/projeto.html">Projetos</a>
+        </li><li>
+          <a href="/sobremim/contato.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <header class="poto">
+      <div > <img src="./img/foto.jpg" alt="f">
+      </div>
+      <h1>Mauricio Cassiano</h1>
+      <h3>Desenvolvedor Front-end</h3>
+    </header>
+    <form class="contact-form" action="https://formsubmit.co/3b95de7bba985e75b12c417eef77609d" method="POST">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required>
+      <label for="message">Mensagem</label>
+      <input type="text" name="message" id="message" required>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/sobremim/thanks.html">
+      <button type="submit">Enviar</button>
+  </form> 
+  </div>
+
+</body>
+</html>
