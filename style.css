@@ -57,7 +57,7 @@ footer p {
   margin-top: 2px;
 }
 
-.conteiner {
+.container {
   padding: 0px 50px;
 }
 
@@ -80,5 +80,9 @@ button {
   border: none;
   width: 100px;
   height: 30px;
+<<<<<<< HEAD
   border-radius: 5px;
 }
+=======
+}
+>>>>>>> bd1013b2f369e23bd0bdcbd7dd8cd7927d1e5456
