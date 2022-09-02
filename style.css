@@ -80,9 +80,11 @@ button {
   border: none;
   width: 100px;
   height: 30px;
-<<<<<<< HEAD
   border-radius: 5px;
 }
-=======
+
+button a {
+  color: #141414;
+  font-weight: bold;
+  padding: 20px;
 }
->>>>>>> bd1013b2f369e23bd0bdcbd7dd8cd7927d1e5456
